@@ -1,4 +1,4 @@
-# highloadcup17_solutions
+# highloadcup18_solutions
 
 Задание: https://github.com/MailRuChamps/hlcupdocs
 
