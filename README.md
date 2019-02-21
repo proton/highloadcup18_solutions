@@ -7,6 +7,8 @@
 | Место  | Ссылка | Язык | Время | Имя |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 4 | https://github.com/densmnko/dumb | Go | 36.79507 | Den Semenenko |
+| 6 | https://github.com/DimaGusev/highloadcup2018 | Java | 40.49331 | Dmitry Gusev |
+| 9 | https://github.com/obender12/hl18 | C# | 55.27499 | Yuriy Lyfenko |
 | 14 | https://github.com/funny-falcon/highloadcup2018 | Go | 107.2777 | Юрий Соколов |
 | 24 | https://github.com/solyutor/hlcup2018 | C# | 287.86844 | Jury Soldatenkov |
 | 28 | https://github.com/covrom/highloadcup2018 | Go | 410.52697 | Роман Цованян |
