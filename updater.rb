@@ -3,7 +3,9 @@ require 'pry'
 
 README_FILE = './README.md'
 NO_PLACE = Float::INFINITY
-URL = 'https://highloadcup.ru/ru/rating/'
+
+ELIM_URL = 'https://highloadcup.ru/ru/rating/round/4/'
+FINAL_URL = 'https://highloadcup.ru/ru/rating/'
 
 repos = {}
 agent = Mechanize.new
@@ -21,7 +23,33 @@ file_table_lines[2..-1].each do |line|
   repos[name] = { place: place, url: url, lang: lang, time: time, name: name }
 end
 
-page = agent.get(URL)
+page = agent.get(ELIM_URL)
+user_rows = page.search('.rating table.table tbody tr')
+
+user_rows.each do |user_row|
+  columns = user_row.children
+  place = columns[1].inner_text.gsub(/\s+/, ' ').strip.to_i
+  next if place.zero?
+
+  name = columns[7].inner_text.gsub(/\s+/, ' ').strip
+  lang = ''
+  m = name.match(/^(?<name>.*) \((?<lang>.*)\)$/)
+  if m
+    name = m[:name]
+    lang = m[:lang]
+  end
+  time = columns[9].inner_text.gsub(/\s+/, ' ').strip.to_f
+  
+  repo = repos[name]
+
+  next unless repo
+
+  repo[:time] = time
+  repo[:place] = place
+  repo[:lang] ||= lang
+end
+
+page = agent.get(FINAL_URL)
 user_rows = page.search('.rating-table .rating-users-col .rating-table-row')
 time_rows = page.search('.rating-table .rating-result-col .rating-table-row')
 

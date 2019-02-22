@@ -15,8 +15,9 @@
 | 31 | https://github.com/superbotan/hlc2018 | Go | 552.34482 | Илья Щербина |
 | 45 | https://github.com/Hartigan/highloadcup2018 | C# | 34632.96135 | Анатолий Сафонов |
 | 69 | https://github.com/freepk/hlc18r4 | Go | 89691.79303 | Pablo Escobar |
-|  | https://github.com/proton/highloadcup18_node.js | Node.js |  | Peter Savichev |
-|  | https://github.com/herolover/highloadcup2018 | C++ |  | Anton Zhvakin |
-|  | https://github.com/server-may-cry/highloadcup_18 | Go |  | Sergei Opletaev |
+| 86 | https://bitbucket.org/totaki/hicup2018 | Python | 129548.40664 | Сергей Емельянов |
+| 143 | https://github.com/herolover/highloadcup2018 | C++ | 188749.61843 | Anton Zhvakin |
+| 161 | https://github.com/server-may-cry/highloadcup_18 | Go | 285398.82662 | Сергей Оплетаев |
+| 199 | https://github.com/proton/highloadcup18_node.js | Node.js | 353988.07532 | Peter Savichev |
 
 Or you can search by tag: https://github.com/search?q=topic%3Ahighloadcup&type=Repositories
