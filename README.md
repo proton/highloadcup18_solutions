@@ -22,4 +22,4 @@
 | 161 | https://github.com/server-may-cry/highloadcup_18 | Go | 285398.82662 | Сергей Оплетаев |
 | 199 | https://github.com/proton/highloadcup18_node.js | Node.js | 353988.07532 | Peter Savichev |
 
-Or you can search by tag: https://github.com/search?q=topic%3Ahighloadcup&type=Repositories
+Прошлый год: https://github.com/proton/highloadcup17_solutions
