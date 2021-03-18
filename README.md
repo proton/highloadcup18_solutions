@@ -1,8 +1,6 @@
-# highloadcup18_solutions
+# Highloadcup 2018 solutions
 
-Задание: https://github.com/MailRuChamps/hlcupdocs
-
-Тестер корректности/производительности: https://github.com/AterCattus/highloadcup_tester
+[Task](https://github.com/MailRuChamps/hlcupdocs), [Performance/validity checker](https://github.com/AterCattus/highloadcup_tester), [Highloadcup 2017 solutions](https://github.com/proton/highloadcup17_solutions)
 
 | Место  | Ссылка | Язык | Время | Имя |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
