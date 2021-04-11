@@ -1,6 +1,6 @@
 # Highloadcup 2018 solutions
 
-[Task](https://github.com/MailRuChamps/hlcupdocs), [Performance/validity checker](https://github.com/AterCattus/highloadcup_tester), [Highloadcup 2017 solutions](https://github.com/proton/highloadcup17_solutions)
+[Task](https://github.com/MailRuChamps/hlcupdocs), [Performance/validity checker](https://github.com/AterCattus/highloadcup_tester), [2017](https://github.com/proton/highloadcup17_solutions), 2018, [2021](https://github.com/proton/highloadcup21_solutions)
 
 | Место  | Ссылка | Язык | Время | Имя |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -19,5 +19,3 @@
 | 143 | https://github.com/herolover/highloadcup2018 | C++ | 188749.61843 | Anton Zhvakin |
 | 161 | https://github.com/server-may-cry/highloadcup_18 | Go | 285398.82662 | Сергей Оплетаев |
 | 199 | https://github.com/proton/highloadcup18_node.js | Node.js | 353988.07532 | Peter Savichev |
-
-Прошлый год: https://github.com/proton/highloadcup17_solutions
